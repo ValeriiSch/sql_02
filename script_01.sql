@@ -9,7 +9,6 @@ create table netology.CUSTOMERS
     phone_number varchar(20)
 );
 
-
 insert into netology.CUSTOMERS (name, surname, age, phone_number)
 values ('alexey', 'Ivanov', 45, '89126664525');
 
@@ -21,7 +20,6 @@ values ('Alexey', 'Sidorov', 37, '89126600121');
 
 insert into netology.CUSTOMERS (name, surname, age, phone_number)
 values ('Ivan', 'Popov', 25, '89124745689');
-
 
 select *
 from netology.CUSTOMERS;
